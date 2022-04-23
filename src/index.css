@@ -1,0 +1,14 @@
+.image{
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 0%;
+}
+.recommendationLabel{
+  position: absolute;
+  top: 65%;
+  left: 8%;
+  font-size: 1.20rem;
+  color: black;
+  font-weight: 400;
+}

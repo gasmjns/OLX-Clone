@@ -1,0 +1,181 @@
+.footer {
+    position: absolute;
+    top: 150vh;
+    width: 100%;
+}
+
+.mainDiv {
+    height: 160px;
+    background: rgb(235, 238, 239);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.listDivs {
+    height: 140px;
+    width: 190px;
+    margin-right: 12px;
+    margin-bottom: 19px;
+}
+
+.listDivs h6 {
+    color: rgb(46, 47, 52);
+}
+
+#div1,
+#div2,
+#div3,
+#div4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#div1 ul,
+#div2 ul,
+#div3 ul,
+#div4 ul {
+    margin-top: 4px;
+}
+
+#div1 li {
+    list-style: none;
+    color: rgb(92, 123, 145);
+    font-size: 9.5px;
+    font-weight: 500;
+    margin-top: 9px;
+    width: 80px;
+    margin-right: 48px;
+}
+
+#div2 li {
+    list-style: none;
+    color: rgb(92, 123, 145);
+    font-size: 9.5px;
+    font-weight: 500;
+    margin-top: 9px;
+    width: 80px;
+    margin-right: 44px;
+}
+
+#div3 li {
+    list-style: none;
+    color: rgb(92, 123, 145);
+    font-size: 9.5px;
+    font-weight: 500;
+    margin-top: 9px;
+    width: 90px;
+    margin-right: 40px;
+}
+
+#div3 h6 {
+    margin-top: 2px;
+    margin-right: 78px;
+}
+
+#div4 li {
+    list-style: none;
+    color: rgb(92, 123, 145);
+    font-size: 9.5px;
+    font-weight: 500;
+    margin-top: 9px;
+    width: 85px;
+    margin-right: 90px;
+}
+
+#div4 h6 {
+    margin-right: 155px;
+}
+
+#div4 ul {
+    margin-bottom: 6px;
+}
+
+.listDivs li:hover {
+    cursor: pointer;
+}
+
+.linksDiv {
+    height: 140px;
+    width: 280px;
+    margin-left: 15px;
+}
+
+.linksDiv label {
+    color: rgb(46, 47, 52);
+    font-size: 83%;
+    font-weight: 600;
+}
+
+.linksImgs {
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.iconsDiv {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 20%;
+}
+
+.iconsDiv * {
+    margin-right: 5px;
+}
+
+.appsDiv {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.appsDiv * {
+    margin-right: 1px;
+}
+
+.secDiv {
+    margin: 0px;
+    padding: 0px;
+    height: 45px;
+    background: rgb(0, 47, 52);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#img1 {
+    max-height: 32px;
+}
+
+#img2 {
+    max-height: 27px;
+}
+
+#img3 {
+    max-height: 30px;
+    margin-bottom: 2px;
+}
+
+.label1 {
+    color: white;
+    font-size: 9px;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 930px;
+}
+
+.label2 {
+    color: white;
+    font-size: 9px;
+}

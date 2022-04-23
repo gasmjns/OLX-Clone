@@ -1,0 +1,85 @@
+.mainDiv{
+    height: 296.81px;
+    width: 225px;
+    background: rgb(255, 255, 255);
+    display: block;
+    box-shadow: 0px 0px 3px 3px #eeeeee;
+    z-index: 1;
+    position: absolute;
+    margin-left: 726px;
+    margin-top: 86px;
+}
+.div1, .div2, .div3{
+    width: 100%;
+    height: 98.5px;
+}
+.icon{
+    max-width: 45px;
+    margin-top: 12px ;
+    margin-left: 12px ;
+}
+.div1{
+    display: flex;
+    border-bottom: 0.1px solid rgba(16, 9, 9, 0.2);
+}
+.div1 *{
+    position: absolute;
+}
+.div1 h3{
+    margin-left: 70px;
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(0, 47, 52);
+}
+.div1 h1{
+    margin-left: 70px;
+    margin-top: 34px;
+    font-weight: 500;
+    color: rgb(0, 47, 52);
+}
+.div1 h6{
+    position: absolute;
+    top: 62px;
+    left: 70px;
+    color: rgb(0, 47, 52);
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: underline;
+}
+.div1 h6:hover{
+    cursor: pointer;
+}
+.div2{
+    border-bottom: 0.1px solid rgba(16, 9, 9, 0.2);
+}
+.div2 span, .div3 span{
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.div2 img,
+.div3 img{
+    margin-top: 2px;
+    max-width: 22px;
+    margin-left: 10px;
+}
+.div2 div, .div3 div{
+    display: flex;
+    flex-direction: row;
+    height: 27%;
+    height: 33.4px;
+}
+.div2 div:hover{
+    cursor: pointer;
+    background: rgb(190, 255, 255);
+}
+.div3 div:hover{
+    cursor: pointer;
+    background: rgb(190, 255, 255);
+}
+.logoutDiv{
+    border-top: 0.1px solid rgba(16, 9, 9, 0.2);
+}

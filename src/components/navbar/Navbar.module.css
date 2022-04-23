@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.screenSize1{
+    position: absolute;
+    left: 0;
+    color: white;
+    z-index: 11;
+    top: 0;
+    font-size: 10px;
+    background: #737573;
+    width: 61px;
+}
+.screenSize2{
+    position: absolute;
+    left: 61px;
+    top: 0;
+    color: white;
+    z-index: 11;
+    background: #737573;
+    font-size: 10px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    background: rgb(247, 248, 248);
+    padding: 10px 40px 10px 70px;
+    border-left: none;
+    border-right: none;
+    height: 17.5vh;
+    z-index: 10;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 24px; 
+    margin-top: 2.3px;
+}
+.logo img {
+    max-height: 2.5vh;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.motors, .property{
+    width: 6%;
+    position: absolute;
+    margin-top: 0.3px;
+}
+.motors:hover{
+    cursor: pointer;
+    fill: blue;
+}
+.property:hover{
+    cursor: pointer;
+    fill: blue;
+}
+.motors{
+    margin-left: 85px;
+}
+.property{
+    margin-left: 180px;
+}
+.location{
+    position: absolute;
+    margin-top: 37px;
+    border: 1.2px solid black;
+    height: 40px;
+    width: 18%;
+    margin-left: 22px;
+    border-radius: 3px;
+    color: black;
+}
+.location::placeholder{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.search{
+    position: absolute;
+    margin-top: 37px;
+    border: 1.2px solid black;
+    height: 40px;
+    width: 48%;
+    margin-left: 270px;
+    border-radius: 3px 0px 0px 3px;
+    color: black;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    margin-left: 853px;
+    margin-top: 37px;
+    border: 1px solid black;
+    border-radius: 0px 3px 3px 0px;
+}
+.searchIcon:hover{
+    cursor: pointer;
+}
+
+.categories {
+    position: absolute;
+    margin-left: 22px;
+    margin-top: 92px;   
+    text-transform: uppercase;
+    color: #002f34;
+    font-weight: 600;
+    font-size: 0.8rem;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.label{
+    color: black;
+    font-weight: 500;
+    font-size: 75%;
+    position: absolute;
+    margin-top: 113px;
+}
+.label:hover{
+    cursor: pointer;
+    color: rgb(64, 64, 244);
+}
+#label1{
+    margin-left: 38px;
+}
+#label2{
+    margin-left: 142px;
+}
+#label3{
+    margin-left: 185px;
+}
+#label4{
+    margin-left: 275px;
+}
+#label5{
+    margin-left: 338px;
+}
+#label6{
+    margin-left: 452px;
+}
+#label7{
+    margin-left: 516px;
+}
+.login{
+    position: absolute;
+    margin-left: 935px;
+    margin-top: 53px;
+    color: rgb(85, 80, 80);
+    text-decoration: underline;
+}
+.login:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.sell{
+    position: absolute;
+    height: 40px;
+    margin-left: 1010px;
+    margin-top: 40px;
+    width: 90px;
+}
+.sell *{
+    position: absolute;
+}
+.sell:hover{
+    cursor: pointer;
+}
+.sellBorder{
+    position: absolute;
+    z-index: 3;
+    max-height: 36px;
+}
+.sell h3{
+    color: rgb(0, 0, 0);
+    z-index: 6;
+    margin-top: 5.5px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.userIcon{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 52px;
+}
+.userIcon:hover{
+    cursor: pointer;
+}
+.userIcon img{
+    max-width: 26px;
+}
+/* .arrowDown {
+    border: solid #002f34;
+    border-width: 0 1.4px 1.4px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transform: rotate(225deg);
+    transition: transform 1s linear;
+} */
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 1052px) {
+    nav {
+        padding: 10px 40px 10px 0px;
+    }
+
+    nav ul li.logo {
+        display: none;
+    }
+
+    nav ul div.items {
+        flex: 4;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav ul li.btn {
+        display: block;
+    }
+
+    nav {
+        z-index: 1;
+        padding: 9px 40px 9px 0;
+    }
+
+    nav ul div.items {
+        z-index: -1;
+        position: fixed;
+        top: -220px;
+        right: 0;
+        width: 100%;
+        background: #222222;
+        display: inline-block;
+        transition: top .4s;
+    }
+
+    nav ul div.items.show {
+        top: 60px;
+    }
+
+    nav ul div.items li {
+        text-align: center;
+        line-height: 30px;
+        margin: 30px 0;
+    }
+
+    nav ul div.items li a {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    nav ul {
+        flex-wrap: nowrap;
+    }
+
+    nav ul li.search {
+        width: 50vmin;
+    }
+
+    nav ul li input {
+        width: 40vmin;
+    }
+
+    nav ul li .search-icon {
+        width: 10vmin;
+    }
+}
