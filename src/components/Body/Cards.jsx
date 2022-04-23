@@ -4,7 +4,7 @@ import React from "react";
 export default function Card(props) {
   return (
     <div className={classes.grid_item} style={props.style}>
-      <img src={props.Img} alt="" />
+      <img src={props.Img} style={{objectFit:'cover'}} alt="" />
       <div className={classes.title}>{props.title}</div>
       <h4>Rs, {props.price}</h4>
       <label className={classes.location}>{props.location}</label>
